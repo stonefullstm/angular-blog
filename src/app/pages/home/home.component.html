@@ -1,11 +1,33 @@
+<header>
+  <app-menu-bar></app-menu-bar>
+</header>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="articles_main">
-    <app-big-card></app-big-card>
+    <app-big-card 
+      photoCover="https://picsum.photos/500/360"
+      cardTitle="Saiu a nova versão do Angular"
+      cardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nunc ante. Proin mattis ante in vulputate tempor."
+    >
+    </app-big-card>
   </div>
   <div class="articles_others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/200/100"
+      cardTitle="Lorem ipsum dolor sit amet"
+    >
+    </app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/201/100"
+      cardTitle="Consectetur adipiscing elit"
+    >
+
+    </app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/202/100"
+      cardTitle="Praesent ac nunc ante"
+    >
+
+    </app-small-card>
   </div>
 </div>
